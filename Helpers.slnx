@@ -1,0 +1,47 @@
+<Solution>
+    <Folder Name="/Mods/">
+        <Project Path="../Mods/AdventureHelper/Celeste.Mods.AdventureHelper.csproj"/>
+        <Project Path="../Mods/AnonHelper/Celeste.Mods.AnonHelper.csproj"/>
+        <Project Path="../Mods/BackgroundSwitch/Celeste.Mods.BackgroundSwitch.csproj"/>
+        <Project Path="../Mods/Batteries/Celeste.Mods.Batteries.csproj"/>
+        <Project Path="../Mods/BrokemiaHelper/Celeste.Mods.BrokemiaHelper.csproj"/>
+        <Project Path="../Mods/CanyonHelper/Celeste.Mods.CanyonHelper.csproj"/>
+        <Project Path="../Mods/CavernHelper/Celeste.Mods.CavernHelper.csproj"/>
+        <Project Path="../Mods/CherryHelper/Celeste.Mods.CherryHelper.csproj"/>
+        <Project Path="../Mods/CollabUtils2/Celeste.Mods.CollabUtils2.csproj"/>
+        <Project Path="../Mods/CommunalHelper/Celeste.Mods.CommunalHelper.csproj"/>
+        <Project Path="../Mods/Crystalline/Celeste.Mods.Crystalline.csproj"/>
+        <Project Path="../Mods/EeveeHelper/Celeste.Mods.EeveeHelper.csproj"/>
+        <Project Path="../Mods/EmHelper/Celeste.Mods.EmHelper.csproj"/>
+        <Project Path="../Mods/ExtendedVariants/Celeste.Mods.ExtendedVariants.csproj"/>
+        <Project Path="../Mods/FactoryHelper/Celeste.Mods.FactoryHelper.csproj"/>
+        <Project Path="../Mods/FancyTileEntities/Celeste.Mods.FancyTileEntities.csproj"/>
+        <Project Path="../Mods/FemtoHelper/Celeste.Mods.FemtoHelper.csproj"/>
+        <Project Path="../Mods/FrostHelper/Celeste.Mods.FrostHelper.csproj"/>
+        <Project Path="../Mods/FurryHelper/Celeste.Mods.FurryHelper.csproj"/>
+        <Project Path="../Mods/GravityHelper/Celeste.Mods.GravityHelper.csproj"/>
+        <Project Path="../Mods/HonlyHelper/Celeste.Mods.HonlyHelper.csproj"/>
+        <Project Path="../Mods/InputHistory/Celeste.Mods.InputHistory.csproj"/>
+        <Project Path="../Mods/IsaGrabBag/Celeste.Mods.IsaGrabBag.csproj"/>
+        <Project Path="../Mods/JackalHelper/Celeste.Mods.JackalHelper.csproj"/>
+        <Project Path="../Mods/JungleHelper/Celeste.Mods.JungleHelper.csproj"/>
+        <Project Path="../Mods/LuaCutscenes/Celeste.Mods.LuaCutscenes.csproj"/>
+        <Project Path="../Mods/MaxHelpingHand/Celeste.Mods.MaxHelpingHand.csproj"/>
+        <Project Path="../Mods/MemorialHelper/Celeste.Mods.MemorialHelper.csproj"/>
+        <Project Path="../Mods/OutbackHelper/Celeste.Mods.OutbackHelper.csproj"/>
+        <Project Path="../Mods/PandorasBox/Celeste.Mods.PandorasBox.csproj"/>
+        <Project Path="../Mods/Randomizer/Celeste.Mods.Randomizer.csproj"/>
+        <Project Path="../Mods/Randomizer/Generation/Celeste.Mods.Randomizer.Generation.csproj"/>
+        <Project Path="../Mods/SafeRespawnCrumble/Celeste.Mods.SafeRespawnCrumble.csproj"/>
+        <Project Path="../Mods/Sardine7/Celeste.Mods.Sardine7.csproj"/>
+        <Project Path="../Mods/ShroomHelper/Celeste.Mods.ShroomHelper.csproj"/>
+        <Project Path="../Mods/SorbetHelper/Celeste.Mods.SorbetHelper.csproj"/>
+        <Project Path="../Mods/SpringCollab2020/Celeste.Mods.SpringCollab2020.csproj"/>
+        <Project Path="../Mods/StrawberryJam/Celeste.Mods.StrawberryJam.csproj"/>
+        <Project Path="../Mods/VivHelper/Celeste.Mods.VivHelper.csproj"/>
+        <Project Path="../Mods/VortexHelper/Celeste.Mods.VortexHelper.csproj"/>
+        <Project Path="../Mods/XaphanHelper/Celeste.Mods.XaphanHelper.csproj"/>
+        <Project Path="../Mods/FlaglinesAndSuch/Celeste.Mods.FlaglinesAndSuch.csproj"/>
+        <Project Path="../Mods/YetAnotherHelper/Celeste.Mods.YetAnotherHelper.csproj"/>
+    </Folder>
+</Solution>

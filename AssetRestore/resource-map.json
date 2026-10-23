@@ -1,0 +1,882 @@
+{
+  "schemaVersion": 1,
+  "sets": {
+    "original": ["orig/Celeste.dll", "orig/Celeste.exe"],
+    "installed": ["Celeste.dll", "Celeste.exe"],
+    "fna": ["FNA.dll", "orig/FNA.dll"]
+  },
+  "files": [
+    {
+      "set": "original",
+      "resource": "Microsoft.Xna.Framework.RuntimeProfile",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Original/000.bin",
+      "bytes": 20,
+      "sha256": "c0e17ad769758bfe0bbdc7cf16a1c257c9b87b63cb6421c141f97d395b7ff86d"
+    },
+    {
+      "set": "installed",
+      "resource": "Microsoft.Xna.Framework.RuntimeProfile",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/000.bin",
+      "bytes": 20,
+      "sha256": "c0e17ad769758bfe0bbdc7cf16a1c257c9b87b63cb6421c141f97d395b7ff86d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Brazilian Portuguese.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/001.bin",
+      "bytes": 14835,
+      "sha256": "22f0627878843f99415495432a44e7952a0051bb228c30beab419b48c81b3813"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/English.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/002.bin",
+      "bytes": 20927,
+      "sha256": "fd71c65fa38c7533f804d84c2748f3f73f2dfb0654cc99bac423d6919f011f66"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese-missing-debug.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/003.bin",
+      "bytes": 111,
+      "sha256": "d99a8ec23159f2c1d117876148e5d35f5b65a4371034bfe252ff5d9c9f630dd9"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/French.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/004.bin",
+      "bytes": 22449,
+      "sha256": "36d1f4af4d8a525f5ac4338212d8f877949fa2b3026560c12474d64ddcdee804"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/German.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/005.bin",
+      "bytes": 20420,
+      "sha256": "3d5216c7f5ee220e997b5bb0a07c291adb9706344ecd51b7a55d0db5ea479d4c"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Japanese.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/006.bin",
+      "bytes": 26467,
+      "sha256": "8f5be63a0dca71452b9ce0ac5731cbac23ac20cb999700f880c322f5920d4c60"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Korean.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/007.bin",
+      "bytes": 23922,
+      "sha256": "568854b648429c23d4a4dad4b390c2943d7b00a04e25653e0ea9a3c9352289af"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Polish.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/008.bin",
+      "bytes": 21151,
+      "sha256": "9f014df143f28fed4590dc3827bb043a47f9bc001a2a831773329d9962ce69d9"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Russian.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/009.bin",
+      "bytes": 22777,
+      "sha256": "a84187f83f941433209708f879e10c928ea251a3df984e62f8b909c69901f700"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Simplified Chinese.txt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/010.bin",
+      "bytes": 18939,
+      "sha256": "222dc5dab5a11c68ac86bd2d2a4b6d0df6449a06fd5405f7c06a2a18b31ca6a2"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/chinese.fnt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/011.bin",
+      "bytes": 6113,
+      "sha256": "26a667811d75b6ab88cefde487beab8dc39aae87f48a25b5f2e1214a792eb2e6"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese.fnt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/012.bin",
+      "bytes": 5082,
+      "sha256": "8ac6fcc2ea247ba675a4dc22712320df7f1b47876d333e4c4226350e95745165"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/korean.fnt",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/013.bin",
+      "bytes": 3548,
+      "sha256": "486a868fb1e2f12e00d51b99e4ab0cc6e8db6ab310fc630aa5075e6bb1b78dfe"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/chinese_generated_0.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/014.bin",
+      "bytes": 27810,
+      "sha256": "5a97f6169fabde05d2bac7194b7bfef2c4108ac80f9d579f75b8280fee89c30d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/chinese_generated_1.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/015.bin",
+      "bytes": 9044,
+      "sha256": "300cd178b8831e72bfb913171490c6a46749513612bd1799ed93175a44bf584d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese_everest_0.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/016.bin",
+      "bytes": 18338,
+      "sha256": "fcff2d11e1940e426fe3a8d5582be2f9df3d563962911e58aae8801e424ac121"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese_everest_1.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/017.bin",
+      "bytes": 1878,
+      "sha256": "1e3f6d57bedcfa3d952e3561e89fd11809dd8f082115833df743d70da58a7415"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/korean_everest_0.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/018.bin",
+      "bytes": 13533,
+      "sha256": "32729bc86bec80bb1d97ea777fb4192f2964b33637c575fb8ac109973288b8c5"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gameplay/tilesets/subFolder/betterTemplate.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/019.bin",
+      "bytes": 8988,
+      "sha256": "00dee2f36b05eaaec37e28852d5e834e1797fefc70d9f359e334295b20fb2bd9"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gameplay/__fallback.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/020.bin",
+      "bytes": 1942,
+      "sha256": "f28617c37d0760b999caed3cde18935841017c29d7dab622fb668c224fca2ca8"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/new-yellow.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/021.bin",
+      "bytes": 8315,
+      "sha256": "a1414087572d2d4fab691ab594cf93aa950321c55cf703b7a7af7234e129e8ac"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/022.bin",
+      "bytes": 11944,
+      "sha256": "88f5931a1360b2e44b99802ec858d10e02d0f53e238a25a55c472cfa17cdd935"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null_back.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/023.bin",
+      "bytes": 7032,
+      "sha256": "5fcae647a8ceda1aea70a4c2337cdca5c8a87ddd8147a5392fff85ea7aa83a5f"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/024.bin",
+      "bytes": 7847,
+      "sha256": "1ae8543bc828cca8ac17613006ccacc713fd84bb56537ddff7106834f0fe76c0"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam_back.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/025.bin",
+      "bytes": 2685,
+      "sha256": "0b9107767b4904c8a6ed66c8d04ed7f44b456e96779b7ce3bdaefbcc03982766"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areaselect/title.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/026.bin",
+      "bytes": 60291,
+      "sha256": "0839135f2baafbf652d652177e69456c07bc85343a6c93491e4e2a906034518d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/Left.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/027.bin",
+      "bytes": 8671,
+      "sha256": "853518213cae98987867d7c5daf0006f51004c463e1494d709d269dad0007cda"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/Middle.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/028.bin",
+      "bytes": 8557,
+      "sha256": "53b9d74f3fe31829197aaee350132e5055478f8cf18e1ba712262cb1b2afdb4a"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/Right.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/029.bin",
+      "bytes": 8589,
+      "sha256": "e8da1dd382d9e714953678393deb7a74fccd6f6866b8ee82511a01516adf9218"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/XButton1.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/030.bin",
+      "bytes": 12306,
+      "sha256": "3d06bcd8e3a1e8c7474ba61804b0e87e3bcf9de3f6c060408229a2402c82215b"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/XButton2.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/031.bin",
+      "bytes": 12737,
+      "sha256": "ea022ce1b9d95a095e9eb10dff311d327f6e597ee1ec4761afd1a44568dfe028"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/checkpoint.m.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/032.bin",
+      "bytes": 9109,
+      "sha256": "44b684dab358b2a567a41eae7e2cb1bb7869a1cc1f385842ac01e7c144daf15f"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/everest.m.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/033.bin",
+      "bytes": 8107,
+      "sha256": "ecbc80c6e62428e660b0d20f1442fdae5cbb2a8c09e58df766832f5394ffdb52"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/glad.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/034.bin",
+      "bytes": 22799,
+      "sha256": "9e411f37ebca59d3347c336699b693e6e5f2e9a9aa2473b1496e72f4b8ea9457"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/gladbw.m.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/035.bin",
+      "bytes": 12636,
+      "sha256": "fa1d80a7c85ce351bfcba3cd5e1e3e53c38bed262d6c98e4c776c2aeccc1bd6c"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/thinking.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/036.bin",
+      "bytes": 24358,
+      "sha256": "656977499d56f07c3085eba73eb5ca33a9e1bbe85dfe5464d6f26efa6efb084f"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/thinkingbw.m.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/037.bin",
+      "bytes": 17211,
+      "sha256": "9e94bd877aa182636b328eed67dd4802996dcbb4d727c00d5a2eed1928b33aa5"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/logo_everest.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/038.bin",
+      "bytes": 348965,
+      "sha256": "3202ce28794e65bc88d67b34cf5a4dd84c2a018e00ff882a5709ab15811df10c"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/everest.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/039.bin",
+      "bytes": 37671,
+      "sha256": "e42dc536178bc332416022732687abd23c5e8eb25444e408b6fb5918ad969069"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/langnoicon.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/040.bin",
+      "bytes": 5793,
+      "sha256": "dd5f5b5de667ae21571e83f0c0683c1c72585fb9672365c763753c8af212939b"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/maplist.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/041.bin",
+      "bytes": 34587,
+      "sha256": "9ad7f5f756bd22930f39c9c7701489a07ccf53d4b91ea32ddeac7840d2d12862"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/mapsearch.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/042.bin",
+      "bytes": 7943,
+      "sha256": "8207a918f4a614980777c89393609e70a8058d6e1e273b35100f75703c65a04d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/modoptions.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/043.bin",
+      "bytes": 37841,
+      "sha256": "d3d7ab466ff295743455f9acd57e8f9dd453598875fab23c6d4ea396c7cd5860"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/modoptions_new.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/044.bin",
+      "bytes": 8094,
+      "sha256": "6130d3ed1fdb8b2fc337f70eefec1acc064437fb2dc3a43a8c48778206e14da2"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/reloader/cogwheel.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/045.bin",
+      "bytes": 11590,
+      "sha256": "0dc795590e03cb38a0f8f1d6c13501b8f9890d1b0a102377c8474a391b757660"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/title_everest.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/046.bin",
+      "bytes": 192156,
+      "sha256": "23071284da8a2eb21e04c9c7727e0e31500495c30565e0488e1331a408f56a8d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/__fallback.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/047.bin",
+      "bytes": 2118,
+      "sha256": "1c10780fd075c1b23586a9eeb4311d313fddc1a2262281683ebf6b85a07c3858"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Misc/__fallback.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/048.bin",
+      "bytes": 2118,
+      "sha256": "1c10780fd075c1b23586a9eeb4311d313fddc1a2262281683ebf6b85a07c3858"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Portraits/textbox/madeline_mini.png",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/049.bin",
+      "bytes": 61569,
+      "sha256": "0cd737c0be0ecf8d515675290b57dcde93e47b95f6606b14729eabdf781c5a92"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null.meta.yaml",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/050.bin",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null_back.meta.yaml",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/051.bin",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam.meta.yaml",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/052.bin",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam_back.meta.yaml",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/053.bin",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/maplist.meta.yaml",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/054.bin",
+      "bytes": 81,
+      "sha256": "66037f3649a0663d654451749fd6f7d30365c8afd22a38ac9d92f2ee1992961d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/modoptions.meta.yaml",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/055.bin",
+      "bytes": 81,
+      "sha256": "66037f3649a0663d654451749fd6f7d30365c8afd22a38ac9d92f2ee1992961d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Lua/boot.lua",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/056.bin",
+      "bytes": 15482,
+      "sha256": "4cd233c19dd3578042511b0e8a7083af6c1320827345569dd8fd87c905581d93"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Lua/typebuilder.lua",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Installed/057.bin",
+      "bytes": 163,
+      "sha256": "12587e2f7efb6a2da492c7012154d9ddb082e6c911cccbb34183356b3098ff1e"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Brazilian Portuguese.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Brazilian Portuguese.txt",
+      "bytes": 14835,
+      "sha256": "22f0627878843f99415495432a44e7952a0051bb228c30beab419b48c81b3813"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/English.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/English.txt",
+      "bytes": 20927,
+      "sha256": "fd71c65fa38c7533f804d84c2748f3f73f2dfb0654cc99bac423d6919f011f66"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese-missing-debug.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/japanese-missing-debug.txt",
+      "bytes": 111,
+      "sha256": "d99a8ec23159f2c1d117876148e5d35f5b65a4371034bfe252ff5d9c9f630dd9"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/French.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/French.txt",
+      "bytes": 22449,
+      "sha256": "36d1f4af4d8a525f5ac4338212d8f877949fa2b3026560c12474d64ddcdee804"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/German.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/German.txt",
+      "bytes": 20420,
+      "sha256": "3d5216c7f5ee220e997b5bb0a07c291adb9706344ecd51b7a55d0db5ea479d4c"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Japanese.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Japanese.txt",
+      "bytes": 26467,
+      "sha256": "8f5be63a0dca71452b9ce0ac5731cbac23ac20cb999700f880c322f5920d4c60"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Korean.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Korean.txt",
+      "bytes": 23922,
+      "sha256": "568854b648429c23d4a4dad4b390c2943d7b00a04e25653e0ea9a3c9352289af"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Polish.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Polish.txt",
+      "bytes": 21151,
+      "sha256": "9f014df143f28fed4590dc3827bb043a47f9bc001a2a831773329d9962ce69d9"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Russian.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Russian.txt",
+      "bytes": 22777,
+      "sha256": "a84187f83f941433209708f879e10c928ea251a3df984e62f8b909c69901f700"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Simplified Chinese.txt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Simplified Chinese.txt",
+      "bytes": 18939,
+      "sha256": "222dc5dab5a11c68ac86bd2d2a4b6d0df6449a06fd5405f7c06a2a18b31ca6a2"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/chinese.fnt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/chinese.fnt",
+      "bytes": 6113,
+      "sha256": "26a667811d75b6ab88cefde487beab8dc39aae87f48a25b5f2e1214a792eb2e6"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese.fnt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/japanese.fnt",
+      "bytes": 5082,
+      "sha256": "8ac6fcc2ea247ba675a4dc22712320df7f1b47876d333e4c4226350e95745165"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/korean.fnt",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/korean.fnt",
+      "bytes": 3548,
+      "sha256": "486a868fb1e2f12e00d51b99e4ab0cc6e8db6ab310fc630aa5075e6bb1b78dfe"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/chinese_generated_0.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/chinese_generated_0.png",
+      "bytes": 27810,
+      "sha256": "5a97f6169fabde05d2bac7194b7bfef2c4108ac80f9d579f75b8280fee89c30d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/chinese_generated_1.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/chinese_generated_1.png",
+      "bytes": 9044,
+      "sha256": "300cd178b8831e72bfb913171490c6a46749513612bd1799ed93175a44bf584d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese_everest_0.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/japanese_everest_0.png",
+      "bytes": 18338,
+      "sha256": "fcff2d11e1940e426fe3a8d5582be2f9df3d563962911e58aae8801e424ac121"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/japanese_everest_1.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/japanese_everest_1.png",
+      "bytes": 1878,
+      "sha256": "1e3f6d57bedcfa3d952e3561e89fd11809dd8f082115833df743d70da58a7415"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Dialog/Fonts/korean_everest_0.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Dialog/Fonts/korean_everest_0.png",
+      "bytes": 13533,
+      "sha256": "32729bc86bec80bb1d97ea777fb4192f2964b33637c575fb8ac109973288b8c5"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gameplay/tilesets/subFolder/betterTemplate.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gameplay/tilesets/subFolder/betterTemplate.png",
+      "bytes": 8988,
+      "sha256": "00dee2f36b05eaaec37e28852d5e834e1797fefc70d9f359e334295b20fb2bd9"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gameplay/__fallback.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gameplay/__fallback.png",
+      "bytes": 1942,
+      "sha256": "f28617c37d0760b999caed3cde18935841017c29d7dab622fb668c224fca2ca8"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/new-yellow.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/new-yellow.png",
+      "bytes": 8315,
+      "sha256": "a1414087572d2d4fab691ab594cf93aa950321c55cf703b7a7af7234e129e8ac"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/null.png",
+      "bytes": 11944,
+      "sha256": "88f5931a1360b2e44b99802ec858d10e02d0f53e238a25a55c472cfa17cdd935"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null_back.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/null_back.png",
+      "bytes": 7032,
+      "sha256": "5fcae647a8ceda1aea70a4c2337cdca5c8a87ddd8147a5392fff85ea7aa83a5f"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/steam.png",
+      "bytes": 7847,
+      "sha256": "1ae8543bc828cca8ac17613006ccacc713fd84bb56537ddff7106834f0fe76c0"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam_back.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/steam_back.png",
+      "bytes": 2685,
+      "sha256": "0b9107767b4904c8a6ed66c8d04ed7f44b456e96779b7ce3bdaefbcc03982766"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areaselect/title.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areaselect/title.png",
+      "bytes": 60291,
+      "sha256": "0839135f2baafbf652d652177e69456c07bc85343a6c93491e4e2a906034518d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/Left.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/controls/mouse/Left.png",
+      "bytes": 8671,
+      "sha256": "853518213cae98987867d7c5daf0006f51004c463e1494d709d269dad0007cda"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/Middle.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/controls/mouse/Middle.png",
+      "bytes": 8557,
+      "sha256": "53b9d74f3fe31829197aaee350132e5055478f8cf18e1ba712262cb1b2afdb4a"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/Right.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/controls/mouse/Right.png",
+      "bytes": 8589,
+      "sha256": "e8da1dd382d9e714953678393deb7a74fccd6f6866b8ee82511a01516adf9218"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/XButton1.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/controls/mouse/XButton1.png",
+      "bytes": 12306,
+      "sha256": "3d06bcd8e3a1e8c7474ba61804b0e87e3bcf9de3f6c060408229a2402c82215b"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/controls/mouse/XButton2.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/controls/mouse/XButton2.png",
+      "bytes": 12737,
+      "sha256": "ea022ce1b9d95a095e9eb10dff311d327f6e597ee1ec4761afd1a44568dfe028"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/checkpoint.m.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/emoji/checkpoint.m.png",
+      "bytes": 9109,
+      "sha256": "44b684dab358b2a567a41eae7e2cb1bb7869a1cc1f385842ac01e7c144daf15f"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/everest.m.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/emoji/everest.m.png",
+      "bytes": 8107,
+      "sha256": "ecbc80c6e62428e660b0d20f1442fdae5cbb2a8c09e58df766832f5394ffdb52"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/glad.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/emoji/glad.png",
+      "bytes": 22799,
+      "sha256": "9e411f37ebca59d3347c336699b693e6e5f2e9a9aa2473b1496e72f4b8ea9457"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/gladbw.m.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/emoji/gladbw.m.png",
+      "bytes": 12636,
+      "sha256": "fa1d80a7c85ce351bfcba3cd5e1e3e53c38bed262d6c98e4c776c2aeccc1bd6c"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/thinking.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/emoji/thinking.png",
+      "bytes": 24358,
+      "sha256": "656977499d56f07c3085eba73eb5ca33a9e1bbe85dfe5464d6f26efa6efb084f"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/emoji/thinkingbw.m.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/emoji/thinkingbw.m.png",
+      "bytes": 17211,
+      "sha256": "9e94bd877aa182636b328eed67dd4802996dcbb4d727c00d5a2eed1928b33aa5"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/logo_everest.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/logo_everest.png",
+      "bytes": 348965,
+      "sha256": "3202ce28794e65bc88d67b34cf5a4dd84c2a018e00ff882a5709ab15811df10c"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/everest.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/everest.png",
+      "bytes": 37671,
+      "sha256": "e42dc536178bc332416022732687abd23c5e8eb25444e408b6fb5918ad969069"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/langnoicon.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/langnoicon.png",
+      "bytes": 5793,
+      "sha256": "dd5f5b5de667ae21571e83f0c0683c1c72585fb9672365c763753c8af212939b"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/maplist.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/maplist.png",
+      "bytes": 34587,
+      "sha256": "9ad7f5f756bd22930f39c9c7701489a07ccf53d4b91ea32ddeac7840d2d12862"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/mapsearch.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/mapsearch.png",
+      "bytes": 7943,
+      "sha256": "8207a918f4a614980777c89393609e70a8058d6e1e273b35100f75703c65a04d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/modoptions.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/modoptions.png",
+      "bytes": 37841,
+      "sha256": "d3d7ab466ff295743455f9acd57e8f9dd453598875fab23c6d4ea396c7cd5860"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/modoptions_new.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/modoptions_new.png",
+      "bytes": 8094,
+      "sha256": "6130d3ed1fdb8b2fc337f70eefec1acc064437fb2dc3a43a8c48778206e14da2"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/reloader/cogwheel.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/reloader/cogwheel.png",
+      "bytes": 11590,
+      "sha256": "0dc795590e03cb38a0f8f1d6c13501b8f9890d1b0a102377c8474a391b757660"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/title_everest.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/title_everest.png",
+      "bytes": 192156,
+      "sha256": "23071284da8a2eb21e04c9c7727e0e31500495c30565e0488e1331a408f56a8d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/__fallback.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/__fallback.png",
+      "bytes": 2118,
+      "sha256": "1c10780fd075c1b23586a9eeb4311d313fddc1a2262281683ebf6b85a07c3858"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Misc/__fallback.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Misc/__fallback.png",
+      "bytes": 2118,
+      "sha256": "1c10780fd075c1b23586a9eeb4311d313fddc1a2262281683ebf6b85a07c3858"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Portraits/textbox/madeline_mini.png",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Portraits/textbox/madeline_mini.png",
+      "bytes": 61569,
+      "sha256": "0cd737c0be0ecf8d515675290b57dcde93e47b95f6606b14729eabdf781c5a92"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null.meta.yaml",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/null.meta.yaml",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/null_back.meta.yaml",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/null_back.meta.yaml",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam.meta.yaml",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/steam.meta.yaml",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam_back.meta.yaml",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/areas/steam_back.meta.yaml",
+      "bytes": 36,
+      "sha256": "1860e5aebb9bdb0645b96fe8cb090fdf99cc614741c169b645b4dc16c8863ce3"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/maplist.meta.yaml",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/maplist.meta.yaml",
+      "bytes": 81,
+      "sha256": "66037f3649a0663d654451749fd6f7d30365c8afd22a38ac9d92f2ee1992961d"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/menu/modoptions.meta.yaml",
+      "destination": "Shared/src/Celeste.Everest/Content/Embedded/Builtin/Graphics/Atlases/Gui/menu/modoptions.meta.yaml",
+      "bytes": 81,
+      "sha256": "66037f3649a0663d654451749fd6f7d30365c8afd22a38ac9d92f2ee1992961d"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.AlphaTestEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/AlphaTestEffect.fxb",
+      "bytes": 5592,
+      "sha256": "6db696511b0a5ae52be02cff9c902d28046adbcb7e6c156a09b7e3f630153a48"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.BasicEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/BasicEffect.fxb",
+      "bytes": 28824,
+      "sha256": "b3cedbb929418ba6eb7408a973842fb214b598ad35c3670b3e5af58b7b5ec0b7"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.DualTextureEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/DualTextureEffect.fxb",
+      "bytes": 4680,
+      "sha256": "e3c5814923f6c8bb0007a0dc45ad7ca4031ee2de0e3c261484b62a5639ed8025"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.EnvironmentMapEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/EnvironmentMapEffect.fxb",
+      "bytes": 10968,
+      "sha256": "3b66dc7858036e8f5b8bc87471ca0b88a9f8a2871baa16a21629e940945e8395"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.SkinnedEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/SkinnedEffect.fxb",
+      "bytes": 55532,
+      "sha256": "933a315f3a1352c634fd4b023bd7a428ca55ee4dfe48e55115bd3658a8c94931"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.SpriteEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/SpriteEffect.fxb",
+      "bytes": 1104,
+      "sha256": "ebed64c8f19e79ebc31148ee3ac8c32dca309e8e0145f698f7348e3741dd8c56"
+    },
+    {
+      "set": "fna",
+      "resource": "Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffect.fxb",
+      "destination": "Shared/src/Celeste.Graphics/Rendering/Effects/Resources/YUVToRGBAEffect.fxb",
+      "bytes": 1088,
+      "sha256": "6c07493b0fa610924b7269b401f95bbb23e116da5942c02578ec69db2d0ba51a"
+    },
+    {
+      "set": "installed",
+      "resource": "Content/Graphics/Atlases/Gui/areas/steam.png",
+      "destination": "Unity/Assets/Resources/Celeste/UI/SteamLogo.bytes",
+      "bytes": 7847,
+      "sha256": "1ae8543bc828cca8ac17613006ccacc713fd84bb56537ddff7106834f0fe76c0"
+    }
+  ],
+  "constants": [
+    {
+      "set": "original",
+      "type": "Celeste.Pico8.Emulator",
+      "field": "MapData",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Constants/Pico8MapData.bin",
+      "bytes": 33148,
+      "sha256": "cde940d0dca42bf0565810e03b4f76e54424785bd3859b3a0e419c985421e646"
+    },
+    {
+      "set": "installed",
+      "type": "Celeste.Pico8.Emulator",
+      "field": "MapData",
+      "destination": "Shared/src/Celeste.Game/Reflection/Metadata/Resources/Constants/Pico8MapData.bin",
+      "bytes": 33148,
+      "sha256": "cde940d0dca42bf0565810e03b4f76e54424785bd3859b3a0e419c985421e646"
+    }
+  ]
+}

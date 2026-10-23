@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+/artifacts/
+/Artifacts/
+/.idea/
+/.vs/
+*.user
+*.log

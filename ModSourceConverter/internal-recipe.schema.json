@@ -1,0 +1,344 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "newline": {
+      "const": "lf"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "id",
+          "path",
+          "sha256"
+        ]
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "literal": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "input": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "memberKind": {
+                      "enum": [
+                        "class",
+                        "constructor",
+                        "method",
+                        "field",
+                        "property",
+                        "enum",
+                        "struct"
+                      ]
+                    },
+                    "memberName": {
+                      "type": "string"
+                    },
+                    "parameterTypes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "part": {
+                      "enum": [
+                        "full",
+                        "body",
+                        "statements",
+                        "initializer",
+                        "attributes",
+                        "declarationTrailingTrivia",
+                        "lambdaBody",
+                        "parameters"
+                      ]
+                    },
+                    "format": {
+                      "enum": [
+                        "preserve",
+                        "normalize"
+                      ]
+                    },
+                    "maps": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "tokens": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "identifiers": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "types": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "memberAccess": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "invocations": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "removeArgumentNames": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "expressions": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "assignmentCalls": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "constructors": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "properties": {
+                              "prefix": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "suffix": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "additionalProperties": false,
+                            "type": "object"
+                          }
+                        },
+                        "initializerSuffix": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "required": []
+                    },
+                    "statementStart": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "statementCount": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "lambdaIndex": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "allOf": [
+                    {
+                      "if": {
+                        "anyOf": [
+                          {
+                            "required": [
+                              "statementStart"
+                            ]
+                          },
+                          {
+                            "required": [
+                              "statementCount"
+                            ]
+                          }
+                        ]
+                      },
+                      "then": {
+                        "properties": {
+                          "part": {
+                            "const": "statements"
+                          }
+                        },
+                        "required": [
+                          "part"
+                        ]
+                      }
+                    }
+                  ],
+                  "required": [
+                    "input",
+                    "type",
+                    "memberKind"
+                  ]
+                },
+                "indent": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 32
+                },
+                "sourceRange": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "input": {
+                      "type": "string"
+                    },
+                    "normalizedSha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    },
+                    "offset": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "length": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  },
+                  "required": [
+                    "input",
+                    "normalizedSha256",
+                    "offset",
+                    "length"
+                  ]
+                }
+              },
+              "required": [],
+              "oneOf": [
+                {
+                  "required": [
+                    "literal"
+                  ],
+                  "not": {
+                    "anyOf": [
+                      {
+                        "required": [
+                          "source"
+                        ]
+                      },
+                      {
+                        "required": [
+                          "sourceRange"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "required": [
+                    "source"
+                  ],
+                  "not": {
+                    "anyOf": [
+                      {
+                        "required": [
+                          "literal"
+                        ]
+                      },
+                      {
+                        "required": [
+                          "sourceRange"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "required": [
+                    "sourceRange"
+                  ],
+                  "not": {
+                    "anyOf": [
+                      {
+                        "required": [
+                          "literal"
+                        ]
+                      },
+                      {
+                        "required": [
+                          "source"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "path",
+          "sha256",
+          "segments"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "inputs",
+    "outputs"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

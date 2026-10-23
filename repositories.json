@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Shared",
+    "path": "Shared",
+    "category": "core",
+    "visibility": "private"
+  },
+  {
+    "name": "Unity",
+    "path": "Unity",
+    "category": "host",
+    "visibility": "private"
+  },
+  {
+    "name": "Godot",
+    "path": "Godot",
+    "category": "host",
+    "visibility": "private"
+  },
+  {
+    "name": "Tools",
+    "path": "Tools",
+    "category": "tooling",
+    "visibility": "private"
+  },
+  {
+    "name": "AdventureHelper",
+    "path": "Mods/AdventureHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "AnonHelper",
+    "path": "Mods/AnonHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "BackgroundSwitch",
+    "path": "Mods/BackgroundSwitch",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "Batteries",
+    "path": "Mods/Batteries",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "BrokemiaHelper",
+    "path": "Mods/BrokemiaHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "CanyonHelper",
+    "path": "Mods/CanyonHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "CavernHelper",
+    "path": "Mods/CavernHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "CherryHelper",
+    "path": "Mods/CherryHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "CollabUtils2",
+    "path": "Mods/CollabUtils2",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "CommunalHelper",
+    "path": "Mods/CommunalHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "Crystalline",
+    "path": "Mods/Crystalline",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "EeveeHelper",
+    "path": "Mods/EeveeHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "EmHelper",
+    "path": "Mods/EmHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "ExtendedVariants",
+    "path": "Mods/ExtendedVariants",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "FactoryHelper",
+    "path": "Mods/FactoryHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "FancyTileEntities",
+    "path": "Mods/FancyTileEntities",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "FemtoHelper",
+    "path": "Mods/FemtoHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "FrostHelper",
+    "path": "Mods/FrostHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "FurryHelper",
+    "path": "Mods/FurryHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "GravityHelper",
+    "path": "Mods/GravityHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "HonlyHelper",
+    "path": "Mods/HonlyHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "InputHistory",
+    "path": "Mods/InputHistory",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "IsaGrabBag",
+    "path": "Mods/IsaGrabBag",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "JackalHelper",
+    "path": "Mods/JackalHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "JungleHelper",
+    "path": "Mods/JungleHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "LuaCutscenes",
+    "path": "Mods/LuaCutscenes",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "MaxHelpingHand",
+    "path": "Mods/MaxHelpingHand",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "MemorialHelper",
+    "path": "Mods/MemorialHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "OutbackHelper",
+    "path": "Mods/OutbackHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "PandorasBox",
+    "path": "Mods/PandorasBox",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "Randomizer",
+    "path": "Mods/Randomizer",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "SafeRespawnCrumble",
+    "path": "Mods/SafeRespawnCrumble",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "Sardine7",
+    "path": "Mods/Sardine7",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "ShroomHelper",
+    "path": "Mods/ShroomHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "SorbetHelper",
+    "path": "Mods/SorbetHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "SpringCollab2020",
+    "path": "Mods/SpringCollab2020",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "StrawberryJam",
+    "path": "Mods/StrawberryJam",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "VivHelper",
+    "path": "Mods/VivHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "VortexHelper",
+    "path": "Mods/VortexHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "XaphanHelper",
+    "path": "Mods/XaphanHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "TAS",
+    "path": "Mods/TAS",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "BounceHelper",
+    "path": "Mods/BounceHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "ContortHelper",
+    "path": "Mods/ContortHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "DisposableTheo",
+    "path": "Mods/DisposableTheo",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "DJMapHelper",
+    "path": "Mods/DJMapHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "FlaglinesAndSuch",
+    "path": "Mods/FlaglinesAndSuch",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "LunaticHelper",
+    "path": "Mods/LunaticHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "MoreDasheline",
+    "path": "Mods/MoreDasheline",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "YetAnotherHelper",
+    "path": "Mods/YetAnotherHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "CollabLobbyUI",
+    "path": "Mods/CollabLobbyUI",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "PrismaticHelper",
+    "path": "Mods/PrismaticHelper",
+    "category": "mod",
+    "visibility": "private"
+  },
+  {
+    "name": "SpirialisHelper",
+    "path": "Mods/SpirialisHelper",
+    "category": "mod",
+    "visibility": "private"
+  }
+]

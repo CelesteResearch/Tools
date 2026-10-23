@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "name": "AdventureHelper",
+      "project": "Mods/AdventureHelper/Celeste.Mods.AdventureHelper.csproj"
+    },
+    {
+      "name": "AnonHelper",
+      "project": "Mods/AnonHelper/Celeste.Mods.AnonHelper.csproj"
+    },
+    {
+      "name": "Batteries",
+      "project": "Mods/Batteries/Celeste.Mods.Batteries.csproj"
+    },
+    {
+      "name": "BGswitch",
+      "project": "Mods/BackgroundSwitch/Celeste.Mods.BackgroundSwitch.csproj"
+    },
+    {
+      "name": "BrokemiaHelper",
+      "project": "Mods/BrokemiaHelper/Celeste.Mods.BrokemiaHelper.csproj"
+    },
+    {
+      "name": "CanyonHelper",
+      "project": "Mods/CanyonHelper/Celeste.Mods.CanyonHelper.csproj"
+    },
+    {
+      "name": "CavernHelper",
+      "project": "Mods/CavernHelper/Celeste.Mods.CavernHelper.csproj"
+    },
+    {
+      "name": "CherryHelper",
+      "project": "Mods/CherryHelper/Celeste.Mods.CherryHelper.csproj"
+    },
+    {
+      "name": "CollabUtils2",
+      "project": "Mods/CollabUtils2/Celeste.Mods.CollabUtils2.csproj",
+      "manifest": "Mods/CollabUtils2/everest.yaml"
+    },
+    {
+      "name": "CommunalHelper",
+      "project": "Mods/CommunalHelper/Celeste.Mods.CommunalHelper.csproj"
+    },
+    {
+      "name": "CrystallineHelper",
+      "project": "Mods/Crystalline/Celeste.Mods.Crystalline.csproj"
+    },
+    {
+      "name": "EeveeHelper",
+      "project": "Mods/EeveeHelper/Celeste.Mods.EeveeHelper.csproj"
+    },
+    {
+      "name": "EmHelper",
+      "project": "Mods/EmHelper/Celeste.Mods.EmHelper.csproj"
+    },
+    {
+      "name": "ExtendedVariantMode",
+      "project": "Mods/ExtendedVariants/Celeste.Mods.ExtendedVariants.csproj"
+    },
+    {
+      "name": "FactoryHelper",
+      "project": "Mods/FactoryHelper/Celeste.Mods.FactoryHelper.csproj"
+    },
+    {
+      "name": "FancyTileEntities",
+      "project": "Mods/FancyTileEntities/Celeste.Mods.FancyTileEntities.csproj"
+    },
+    {
+      "name": "FemtoHelper",
+      "project": "Mods/FemtoHelper/Celeste.Mods.FemtoHelper.csproj"
+    },
+    {
+      "name": "FlaglinesAndSuch",
+      "project": "Mods/FlaglinesAndSuch/Celeste.Mods.FlaglinesAndSuch.csproj"
+    },
+    {
+      "name": "FrostHelper",
+      "project": "Mods/FrostHelper/Celeste.Mods.FrostHelper.csproj"
+    },
+    {
+      "name": "FurryHelper",
+      "project": "Mods/FurryHelper/Celeste.Mods.FurryHelper.csproj"
+    },
+    {
+      "name": "GravityHelper",
+      "project": "Mods/GravityHelper/Celeste.Mods.GravityHelper.csproj"
+    },
+    {
+      "name": "HonlyHelper",
+      "project": "Mods/HonlyHelper/Celeste.Mods.HonlyHelper.csproj"
+    },
+    {
+      "name": "InputHistory",
+      "project": "Mods/InputHistory/Celeste.Mods.InputHistory.csproj",
+      "manifest": "Mods/InputHistory/everest.yaml"
+    },
+    {
+      "name": "IsaGrabBag",
+      "project": "Mods/IsaGrabBag/Celeste.Mods.IsaGrabBag.csproj"
+    },
+    {
+      "name": "JackalHelper",
+      "project": "Mods/JackalHelper/Celeste.Mods.JackalHelper.csproj"
+    },
+    {
+      "name": "JungleHelper",
+      "project": "Mods/JungleHelper/Celeste.Mods.JungleHelper.csproj"
+    },
+    {
+      "name": "LuaCutscenes",
+      "project": "Mods/LuaCutscenes/Celeste.Mods.LuaCutscenes.csproj"
+    },
+    {
+      "name": "MaxHelpingHand",
+      "project": "Mods/MaxHelpingHand/Celeste.Mods.MaxHelpingHand.csproj"
+    },
+    {
+      "name": "MemorialHelper",
+      "project": "Mods/MemorialHelper/Celeste.Mods.MemorialHelper.csproj"
+    },
+    {
+      "name": "OutbackHelper",
+      "project": "Mods/OutbackHelper/Celeste.Mods.OutbackHelper.csproj"
+    },
+    {
+      "name": "PandorasBox",
+      "project": "Mods/PandorasBox/Celeste.Mods.PandorasBox.csproj"
+    },
+    {
+      "name": "Randomizer",
+      "project": "Mods/Randomizer/Celeste.Mods.Randomizer.csproj"
+    },
+    {
+      "name": "SafeRespawnCrumble",
+      "project": "Mods/SafeRespawnCrumble/Celeste.Mods.SafeRespawnCrumble.csproj"
+    },
+    {
+      "name": "Sardine7",
+      "project": "Mods/Sardine7/Celeste.Mods.Sardine7.csproj"
+    },
+    {
+      "name": "ShroomHelper",
+      "project": "Mods/ShroomHelper/Celeste.Mods.ShroomHelper.csproj"
+    },
+    {
+      "name": "SorbetHelper",
+      "project": "Mods/SorbetHelper/Celeste.Mods.SorbetHelper.csproj"
+    },
+    {
+      "name": "SpringCollab2020",
+      "project": "Mods/SpringCollab2020/Celeste.Mods.SpringCollab2020.csproj",
+      "manifest": "Mods/SpringCollab2020/everest.yaml"
+    },
+    {
+      "name": "StrawberryJam2021",
+      "project": "Mods/StrawberryJam/Celeste.Mods.StrawberryJam.csproj",
+      "manifest": "Mods/StrawberryJam/everest.yaml"
+    },
+    {
+      "name": "VivHelper",
+      "project": "Mods/VivHelper/Celeste.Mods.VivHelper.csproj"
+    },
+    {
+      "name": "VortexHelper",
+      "project": "Mods/VortexHelper/Celeste.Mods.VortexHelper.csproj"
+    },
+    {
+      "name": "XaphanHelper",
+      "project": "Mods/XaphanHelper/Celeste.Mods.XaphanHelper.csproj"
+    },
+    {
+      "name": "YetAnotherHelper",
+      "project": "Mods/YetAnotherHelper/Celeste.Mods.YetAnotherHelper.csproj"
+    }
+  ]
+}

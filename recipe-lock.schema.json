@@ -1,0 +1,413 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://celesteresearch.local/locked-mod-recipes.schema.json",
+  "title": "Pinned local Mod rebuild lock",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "modules"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "modules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "version",
+          "completeModule",
+          "archive",
+          "dependencies",
+          "files",
+          "project",
+          "assembly"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._-]*$"
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "completeModule": {
+            "const": true
+          },
+          "archive": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          },
+          "dependencies": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "project": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+          },
+          "assembly": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+          },
+          "converter": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "recipe",
+              "sha256",
+              "inputs",
+              "outputs"
+            ],
+            "properties": {
+              "recipe": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "inputs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "path",
+                    "sha256"
+                  ],
+                  "properties": {
+                    "path": {
+                      "type": "string",
+                      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  }
+                }
+              },
+              "outputs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "path",
+                    "sha256"
+                  ],
+                  "properties": {
+                    "path": {
+                      "type": "string",
+                      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "origin",
+                "path",
+                "sha256",
+                "output",
+                "outputSha256",
+                "steps"
+              ],
+              "properties": {
+                "origin": {
+                  "enum": [
+                    "source",
+                    "recipe"
+                  ]
+                },
+                "path": {
+                  "type": "string",
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "output": {
+                  "type": "string",
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                },
+                "outputSha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "steps": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "kind",
+                      "before",
+                      "after",
+                      "count"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "const": "replaceExact"
+                      },
+                      "before": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "after": {
+                        "type": "string"
+                      },
+                      "count": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "decompile": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "assemblyEntry",
+              "assemblySha256",
+              "types"
+            ],
+            "properties": {
+              "assemblyEntry": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "assemblySha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "types": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "name",
+                    "path",
+                    "sha256"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "path": {
+                      "type": "string",
+                      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "archiveSources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "entry": {
+                  "type": "string",
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                },
+                "path": {
+                  "type": "string",
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                }
+              },
+              "required": [
+                "entry",
+                "path",
+                "sha256"
+              ]
+            }
+          },
+          "originalAssembly": {
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+              "entry": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "entry",
+              "sha256"
+            ]
+          }
+        }
+      }
+    },
+    "decompiler": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "toolVersion",
+        "entrypoint",
+        "toolFiles",
+        "references"
+      ],
+      "properties": {
+        "toolVersion": {
+          "const": "10.1.0.8386"
+        },
+        "entrypoint": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+        },
+        "toolFiles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "references": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "assemblyIdentity": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "oneOf": [
+              {
+                "required": [
+                  "sha256"
+                ],
+                "not": {
+                  "required": [
+                    "assemblyIdentity"
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "assemblyIdentity"
+                ],
+                "not": {
+                  "required": [
+                    "sha256"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "frameworkReferences": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[^\\\\:]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

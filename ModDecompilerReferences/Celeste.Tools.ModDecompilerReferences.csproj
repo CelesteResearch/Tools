@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <RestoreLockedMode>true</RestoreLockedMode>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageDownload Include="Microsoft.NETFramework.ReferenceAssemblies.net452" Version="[1.0.3]"/>
+    </ItemGroup>
+    <Target Name="CopyPinnedReferences">
+        <Error Condition="'$(ReferenceOutputDirectory)' == ''" Text="ReferenceOutputDirectory is required."/>
+        <PropertyGroup>
+            <FrameworkReferenceRoot>$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net452/1.0.3/build/.NETFramework/v4.5.2</FrameworkReferenceRoot>
+        </PropertyGroup>
+        <ItemGroup>
+            <PinnedReference Include="$(FrameworkReferenceRoot)/mscorlib.dll;$(FrameworkReferenceRoot)/System.dll;$(FrameworkReferenceRoot)/System.Core.dll"/>
+        </ItemGroup>
+        <Copy SourceFiles="@(PinnedReference)" DestinationFolder="$(ReferenceOutputDirectory)"/>
+    </Target>
+</Project>
